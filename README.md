@@ -4,7 +4,11 @@ A comprehensive system for news analysis using Neo4j graph database and GraphRAG
 
 ## 🚀 Overview
 
-This project implements a complete pipeline for processing news articles, extracting entities and relationships, building a knowledge graph, and enabling intelligent question-answering through GraphRAG technology.
+This project implements a complete pipeline  for processing news articles, extracting entities and relationships, building a knowledge graph, and enabling intelligent question-answering through GraphRAG technology.
+
+<img width="756" height="587" alt="Screenshot 2025-09-04 at 1 53 52 am" src="https://github.com/user-attachments/assets/0457d8b7-ac7f-4940-a0da-c38c1bbdb890" />
+
+<img width="752" height="554" alt="initial_visualization" src="https://github.com/user-attachments/assets/a1272978-d0a9-4a0e-acc4-8a475a040204" />
 
 ## 📋 System Architecture
 
