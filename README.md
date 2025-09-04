@@ -1,4 +1,4 @@
-# Neo4j News Analysis & GraphRAG System
+# Neo4j News Analysis & GraphRAG System 
 
 A comprehensive system for news analysis using Neo4j graph database and GraphRAG (Graph Retrieval-Augmented Generation) for intelligent query answering.
 
@@ -67,21 +67,6 @@ News API → Data Conversion → Graph Processing → Vector Index → GraphRAG 
 - **LLM Integration**: Uses GPT-4 for response generation
 - **Query Optimization**: Intelligent query routing and processing
 
-## 🛠️ Installation
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd neo4j-news-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
-```
-
 ## ⚙️ Configuration
 
 Create a `.env` file with the following variables:
@@ -119,9 +104,9 @@ vector_index = VectorIndex(graph)
 vector_index.connect_vector_index()
 
 # 4. Query with GraphRAG
-from KG_RAG_Chain import KGRAGChain
-rag_chain = KGRAGChain(graph, vector_index)
-response = rag_chain.query("What companies are developing AI technology?")
+import KG_RAG_Chain 
+rag_chain = kg_enhanced_rag_chain(graph, vector_index)
+response = rag_chain("What companies are developing AI technology?")
 ```
 
 ### Detailed Workflow
@@ -157,18 +142,6 @@ response = rag_chain.query("What companies are developing AI technology?")
 ├── news_metadata.json        # Sample data
 └── README.md                 # This file
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
